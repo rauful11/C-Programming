@@ -1,8 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
 
-int main()
-{
-    printf("Hello world!\n");
-    return 0;
+
+void adder(){
+    int a,b,c;
+    scanf("%d%d",&a,&b);
+    c=a+b;
+    printf("%d",c);
+}
+
+int main(){
+ adder();
+ return 0;
 }
