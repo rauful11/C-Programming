@@ -1,0 +1,19 @@
+
+#include<stdio.h>
+int maximum(int *a,int *b){
+        if(*a>*b){
+    return *a;
+    }
+        else{
+        return *b;
+    }
+}
+ int main(){
+    int r;
+    int x,y;
+    scanf("%d%d",&x,&y);
+    r=maximum(&x,&y);
+    printf("%d maximum",r);
+    return 0;
+
+ }
